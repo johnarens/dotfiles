@@ -1,0 +1,3 @@
+10Ge
+FPGA
+checksum_v1 = ba53a3824db03824f94c68856b0e98ed

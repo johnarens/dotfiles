@@ -1,0 +1,15 @@
+# Special built-in mail store.
+
+[Data Source]
+DisplayName=Search Folders
+DisplayName[ca@valencia]=Carpetes de cerca
+Enabled=true
+Parent=
+
+[Mail Account]
+BackendName=vfolder
+IdentityUid=self
+NeedsInitialSetup=false
+
+[Vfolder Backend]
+FilterInbox=true

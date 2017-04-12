@@ -1,0 +1,35 @@
+<monitors version="1">
+  <configuration>
+    <clone>no</clone>
+    <output name="DP2">
+      <vendor>HWP</vendor>
+      <product>HP Z30i</product>
+      <serial>CN46110FWV</serial>
+      <width>2560</width>
+      <height>1600</height>
+      <rate>59.971588134765625</rate>
+      <x>0</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>yes</primary>
+      <presentation>no</presentation>
+    </output>
+    <output name="HDMI2">
+      <vendor>HWP</vendor>
+      <product>HP Z30i</product>
+      <serial>CN46110FYH</serial>
+      <width>2560</width>
+      <height>1600</height>
+      <rate>59.971588134765625</rate>
+      <x>2560</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>no</primary>
+      <presentation>no</presentation>
+    </output>
+  </configuration>
+</monitors>

@@ -1,0 +1,52 @@
+;; Object sxPrecomputedServer/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "sxPrecomputedServer/"
+  :tables (list 
+   (semanticdb-table "sxPrecomputedServer.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("PrecomputedMsgStructs.h" include nil nil [2 36])
+            ("PrecomputedThread.h" include nil nil [37 67])
+            ("FeedSelection.h" include nil nil [69 95])
+            ("QuoteStructures.h" include nil nil [96 124])
+            ("ServerLogicConfiguration.h" include nil nil [125 162])
+            ("ServerLogicFactory.h" include nil nil [163 194])
+            ("ServerLogicThreadGroup.h" include nil nil [195 230])
+            ("kr/CmdLine.h" include nil nil [232 255])
+            ("kr/LoadDBHelper.h" include nil nil [256 284])
+            ("sx/logger.h" include nil nil [286 308])
+            ("cr/logger.h" include nil nil [310 332])
+            ("cr/logthread.h" include nil nil [333 358])
+            ("OrderRouter.h" include nil nil [359 383])
+            ("bDODecline" variable (:type "bool") nil [385 409])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [421 430])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [431 445]))                  
+                :type "int")
+                nil [411 5851]))          
+    :file "sxPrecomputedServer.cpp"
+    :pointmax 5852
+    :fsize 6012
+    :lastmodtime '(22671 43918 417358 640000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "PrecomputedMsgStructs.h"
+    :file "PrecomputedMsgStructs.h"
+    :fsize 562
+    :lastmodtime '(22671 43918 421358 546000)
+    )
+   (semanticdb-table "PrecomputedThread.h"
+    :file "PrecomputedThread.h"
+    :fsize 21188
+    :lastmodtime '(22671 43918 413358 734000)
+    )
+   )
+  :file "!home!simplex!svn!trunk!Servers!sxPrecomputedServer!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

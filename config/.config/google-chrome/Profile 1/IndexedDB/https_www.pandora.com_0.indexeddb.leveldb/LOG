@@ -1,0 +1,21 @@
+2017/04/11-14:54:13.835 18662 Reusing MANIFEST /home/simplex/.config/google-chrome/Profile 1/IndexedDB/https_www.pandora.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/04/11-14:54:13.835 18662 Recovering log #13
+2017/04/11-14:54:13.837 18662 Reusing old log /home/simplex/.config/google-chrome/Profile 1/IndexedDB/https_www.pandora.com_0.indexeddb.leveldb/000013.log 
+2017/04/11-15:04:53.945 19672 Level-0 table #17: started
+2017/04/11-15:04:53.959 19672 Level-0 table #17: 1242328 bytes OK
+2017/04/11-15:04:53.961 19672 Delete type=0 #13
+2017/04/11-15:28:16.215 19672 Level-0 table #19: started
+2017/04/11-15:28:16.234 19672 Level-0 table #19: 1195968 bytes OK
+2017/04/11-15:28:16.237 19672 Delete type=0 #16
+2017/04/11-15:28:16.238 19672 Compacting 4@0 + 1@1 files
+2017/04/11-15:28:16.284 19672 Generated table #20@0: 31 keys, 108475 bytes
+2017/04/11-15:28:16.284 19672 Compacted 4@0 + 1@1 files => 108475 bytes
+2017/04/11-15:28:16.285 19672 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/04/11-15:28:16.286 19672 Delete type=2 #8
+2017/04/11-15:28:16.286 19672 Delete type=2 #11
+2017/04/11-15:28:16.287 19672 Delete type=2 #14
+2017/04/11-15:28:16.287 19672 Delete type=2 #17
+2017/04/11-15:28:16.287 19672 Delete type=2 #19
+2017/04/11-15:47:39.445 19672 Level-0 table #22: started
+2017/04/11-15:47:39.479 19672 Level-0 table #22: 1206155 bytes OK
+2017/04/11-15:47:39.482 19672 Delete type=0 #18
