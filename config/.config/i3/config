@@ -67,6 +67,9 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightne
 #bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Return exec lilyterm
 
+# Lock screen
+bindsym $mod+Scroll_Lock exec "i3lock -n -c 000000"
+
 # kill focused window
 bindsym $mod+Shift+q kill
 
