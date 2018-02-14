@@ -1,4 +1,9 @@
-((ample-regexps status "installed" recipe
+((alert status "installed" recipe
+	(:name alert :description "Growl-style notification system for Emacs" :website "https://github.com/jwiegley/alert" :type github :pkgname "jwiegley/alert" :prepare
+	       (progn
+		 (autoload 'alert "alert" "Alert the user that something has happened.")
+		 (autoload 'alert-add-rule "alert" "Programmatically add an alert configuration rule."))))
+ (ample-regexps status "installed" recipe
 		(:name ample-regexps :description "Compose and reuse Emacs regular expressions with ease" :type github :pkgname "immerrr/ample-regexps.el"))
  (auto-complete status "installed" recipe
 		(:name auto-complete :website "https://github.com/auto-complete/auto-complete" :description "The most intelligent auto-completion extension." :type github :pkgname "auto-complete/auto-complete" :depends
@@ -50,6 +55,16 @@
 	   (:name lua-mode :description "A major-mode for editing Lua scripts" :depends
 		  (ample-regexps)
 		  :type github :pkgname "immerrr/lua-mode"))
+ (notify status "installed" recipe
+	 (:name notify :description "Notification front-end" :type emacswiki :features notify))
+ (org-pomodoro status "installed" recipe
+	       (:name org-pomodoro :description "This adds support for Pomodoro technique in org-mode." :type github :depends
+		      (alert)
+		      :pkgname "lolownia/org-pomodoro"))
+ (pomodoro status "installed" recipe
+	   (:name pomodoro :type github :pkgname "vderyagin/pomodoro.el" :post-init
+		  (setq pomodoro-icon
+			(expand-file-name "pomodoro/pomodoro_technique.png" el-get-dir))))
  (popup status "installed" recipe
 	(:name popup :website "https://github.com/auto-complete/popup-el" :description "Visual Popup Interface Library for Emacs" :type github :submodule nil :depends cl-lib :pkgname "auto-complete/popup-el"))
  (pymacs status "installed" recipe

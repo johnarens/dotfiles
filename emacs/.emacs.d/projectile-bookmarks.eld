@@ -1,1 +1,1 @@
-("~/svn/trunk/" "~/svn/trunk/marketdata/" "~/svn/trunk/Servers/sxPrecomputedServer/" "~/svn/trunk/Servers/" "~/Downloads/wssdl-0.2.0/" "~/svn/trunk/Modeling/predictive_model/")
+("~/dotfiles/" "~/git/simplex/fpga/" "~/orgfiles/" "~/dotfiles/emacs/.emacs.d/el-get/el-get/" "~/svn/trunk/" "~/git/sxcocotb/" "~/git/cocotb/" "~/svn/trunk/fpga/users/jarens/sphinx/" "~/svn/trunk/marketdata/" "~/svn/trunk/Servers/sxPrecomputedServer/" "~/svn/trunk/Servers/" "~/Downloads/wssdl-0.2.0/" "~/svn/trunk/Modeling/predictive_model/" "~/Downloads/fontypython-0.4.6/" "~/Downloads/PIL-1.1.7/")

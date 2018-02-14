@@ -4744,7 +4744,7 @@ gui.filter_expressions.expr: sx_ormwt.type==5
 
 # Whether to validate the TCP checksum or not.  (Invalid checksums will cause reassembly, if enabled, to fail.)
 # TRUE or FALSE (case-insensitive)
-#tcp.check_checksum: FALSE
+tcp.check_checksum: TRUE
 
 # Whether subdissector can request TCP streams to be reassembled
 # TRUE or FALSE (case-insensitive)

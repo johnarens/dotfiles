@@ -5,7 +5,6 @@
 
 ######## Recent capture files (latest last), cannot be altered through command line ########
 
-recent.capture_file: /home/simplex/short_00000_20170222125355.pcap
 recent.capture_file: /home/simplex/glenn.pcap
 recent.capture_file: /home/simplex/glenn_cancel.pcap
 recent.capture_file: /home/simplex/lost.pcap
@@ -15,6 +14,7 @@ recent.capture_file: /home/simplex/IWM.pcap
 recent.capture_file: /home/simplex/onload_orders.pcap
 recent.capture_file: /home/simplex/svn/trunk/fpga/users/jarens/three-way-handshake.pcapng
 recent.capture_file: /home/simplex/svn/trunk/fpga/users/jarens/three-way-handshake_ipv4.pcapng
+recent.capture_file: /home/simplex/Downloads/sackoff.pcap
 
 ######## Recent capture filters (latest last), cannot be altered through command line ########
 
@@ -34,12 +34,12 @@ recent.display_filter: quoteorderid.exchange==5 && sx
 
 # Main window geometry.
 # Decimal numbers.
-gui.geometry_main_x: 74
-gui.geometry_main_y: 166
+gui.geometry_main_x: 0
+gui.geometry_main_y: 18
 gui.gtk.geometry_main_x: 2614
 gui.gtk.geometry_main_y: 61
-gui.geometry_main_width: 1982
-gui.geometry_main_height: 1308
+gui.geometry_main_width: 2556
+gui.geometry_main_height: 1561
 
 # Main window maximized.
 # TRUE or FALSE (case-insensitive).
@@ -70,10 +70,10 @@ privs.warn_if_no_npf: TRUE
 
 # Geometry and maximized state of ExpertInfoDialog window.
 # Decimal integers.
-gui.geom.ExpertInfoDialog.x: 877
-gui.geom.ExpertInfoDialog.y: 28
-gui.geom.ExpertInfoDialog.width: 803
-gui.geom.ExpertInfoDialog.height: 1462
+gui.geom.ExpertInfoDialog.x: 0
+gui.geom.ExpertInfoDialog.y: 18
+gui.geom.ExpertInfoDialog.width: 2556
+gui.geom.ExpertInfoDialog.height: 1561
 # TRUE or FALSE (case-insensitive).
 gui.geom.ExpertInfoDialog.maximized: FALSE
 

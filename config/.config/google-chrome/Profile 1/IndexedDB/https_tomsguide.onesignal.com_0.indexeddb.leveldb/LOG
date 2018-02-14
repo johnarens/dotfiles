@@ -1,1 +1,3 @@
-2017/02/27-07:42:36.137 19353 Reusing MANIFEST /home/simplex/.config/google-chrome/Profile 1/IndexedDB/https_tomsguide.onesignal.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/02/01-10:10:55.658 2400 Reusing MANIFEST /home/simplex/.config/google-chrome/Profile 1/IndexedDB/https_tomsguide.onesignal.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/02/01-10:10:55.658 2400 Recovering log #3
+2018/02/01-10:10:55.658 2400 Reusing old log /home/simplex/.config/google-chrome/Profile 1/IndexedDB/https_tomsguide.onesignal.com_0.indexeddb.leveldb/000003.log 

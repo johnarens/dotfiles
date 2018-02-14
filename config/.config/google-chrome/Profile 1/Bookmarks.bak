@@ -1,5 +1,5 @@
 {
-   "checksum": "cc6601d56a51858587a93f4e15bef213",
+   "checksum": "3dd2d57ba6a6195e5a058689fa7fb1b6",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -34,7 +34,7 @@
                "date_added": "13133967795690665",
                "id": "12",
                "meta_info": {
-                  "last_visited_desktop": "13133967795690783"
+                  "last_visited_desktop": "13139008681790654"
                },
                "name": "About SystemVerilog",
                "type": "url",
@@ -61,7 +61,7 @@
                "date_added": "13133967795691832",
                "id": "15",
                "meta_info": {
-                  "last_visited_desktop": "13133967795691954"
+                  "last_visited_desktop": "13154735669150086"
                },
                "name": "Intro - Verilog-mode - Veripool",
                "type": "url",
@@ -79,7 +79,7 @@
                "date_added": "13133967795692510",
                "id": "17",
                "meta_info": {
-                  "last_visited_desktop": "13133967795692637"
+                  "last_visited_desktop": "13154735670458301"
                },
                "name": "Faq - Verilog-mode - Veripool",
                "type": "url",
@@ -106,7 +106,7 @@
                "date_added": "13133967795693513",
                "id": "20",
                "meta_info": {
-                  "last_visited_desktop": "13133967795693651"
+                  "last_visited_desktop": "13143148260561664"
                },
                "name": "Mac's Emacs Mode",
                "type": "url",
@@ -687,7 +687,7 @@
                "date_added": "13133979245110524",
                "id": "85",
                "meta_info": {
-                  "last_visited_desktop": "13133979245110616"
+                  "last_visited_desktop": "13141315488441441"
                },
                "name": "AOE Program | Solarflare",
                "type": "url",
@@ -759,7 +759,7 @@
                "date_added": "13133979245113098",
                "id": "93",
                "meta_info": {
-                  "last_visited_desktop": "13133979245113209"
+                  "last_visited_desktop": "13140895451227633"
                },
                "name": "Solarflare AOE Firmware Development Kit (FDK) - Colfax Direct",
                "type": "url",
@@ -885,7 +885,7 @@
                "date_added": "13133979245117768",
                "id": "107",
                "meta_info": {
-                  "last_visited_desktop": "13133979245117890"
+                  "last_visited_desktop": "13158858068029332"
                },
                "name": "Verilog Online Help - Verilog Language Reference Guide - verilog.renerta.com",
                "type": "url",
@@ -912,7 +912,7 @@
                "date_added": "13133979245118731",
                "id": "110",
                "meta_info": {
-                  "last_visited_desktop": "13133979245118852"
+                  "last_visited_desktop": "13139326645217183"
                },
                "name": "Title",
                "type": "url",
@@ -1176,7 +1176,7 @@
                "date_added": "13133979395757366",
                "id": "140",
                "meta_info": {
-                  "last_visited_desktop": "13133979395757544"
+                  "last_visited_desktop": "13153601915032374"
                },
                "name": "How to customise your Linux desktop: i3 Window Manager | ZDNet",
                "type": "url",
@@ -1503,7 +1503,7 @@
                "date_added": "13135968782192645",
                "id": "286",
                "meta_info": {
-                  "last_visited_desktop": "13135968336630941"
+                  "last_visited_desktop": "13162594632508142"
                },
                "name": "TCP/IP Client and Server - Python Module of the Week",
                "type": "url",
@@ -2075,7 +2075,7 @@
                "date_added": "13135969064929223",
                "id": "331",
                "meta_info": {
-                  "last_visited_desktop": "13136062589391798"
+                  "last_visited_desktop": "13147809084892732"
                },
                "name": "Graphviz | Graphviz - Graph Visualization Software",
                "type": "url",
@@ -2154,7 +2154,7 @@
                "date_added": "13135969014447334",
                "id": "303",
                "meta_info": {
-                  "last_visited_desktop": "13135969014448205"
+                  "last_visited_desktop": "13160609805058852"
                },
                "name": "RFC 793 - Transmission Control Protocol",
                "type": "url",
@@ -2163,7 +2163,7 @@
                "date_added": "13135969014449138",
                "id": "304",
                "meta_info": {
-                  "last_visited_desktop": "13135969286743292"
+                  "last_visited_desktop": "13161361178544727"
                },
                "name": "Transmission Control Protocol - Wikipedia",
                "type": "url",
@@ -2631,7 +2631,7 @@
                "date_added": "13135969286741731",
                "id": "419",
                "meta_info": {
-                  "last_visited_desktop": "13135969286743292"
+                  "last_visited_desktop": "13161361178544727"
                },
                "name": "Transmission Control Protocol - Wikipedia",
                "type": "url",
@@ -2703,7 +2703,7 @@
                "date_added": "13135969286755160",
                "id": "427",
                "meta_info": {
-                  "last_visited_desktop": "13135969286756868"
+                  "last_visited_desktop": "13162594629725907"
                },
                "name": "TcpCommunication - Python Wiki",
                "type": "url",
@@ -2721,7 +2721,7 @@
                "date_added": "13135969286759786",
                "id": "429",
                "meta_info": {
-                  "last_visited_desktop": "13135969286760101"
+                  "last_visited_desktop": "13162594679555816"
                },
                "name": "Introduction To TCP Sockets",
                "type": "url",
@@ -3024,7 +3024,7 @@
                   "date_added": "13136394580225676",
                   "id": "547",
                   "meta_info": {
-                     "last_visited_desktop": "13136394580225769"
+                     "last_visited_desktop": "13137014904059006"
                   },
                   "name": "How to install imagemagick to Centos 7 64..??? | Web Hosting Talk",
                   "type": "url",
@@ -3069,7 +3069,7 @@
                   "date_added": "13136394580226384",
                   "id": "552",
                   "meta_info": {
-                     "last_visited_desktop": "13136394580226470"
+                     "last_visited_desktop": "13162596695235202"
                   },
                   "name": "Making Emacs Work For Me",
                   "type": "url",
@@ -3195,7 +3195,7 @@
                   "date_added": "13136394580228255",
                   "id": "566",
                   "meta_info": {
-                     "last_visited_desktop": "13136394580228371"
+                     "last_visited_desktop": "13138389529281629"
                   },
                   "name": "Overview — Sphinx 1.5.6 documentation",
                   "type": "url",
@@ -3204,7 +3204,7 @@
                   "date_added": "13136394580228379",
                   "id": "567",
                   "meta_info": {
-                     "last_visited_desktop": "13136394580228489"
+                     "last_visited_desktop": "13136994658958286"
                   },
                   "name": "reStructuredText Primer — Sphinx 1.5.6 documentation",
                   "type": "url",
@@ -3213,7 +3213,7 @@
                   "date_added": "13136394580228539",
                   "id": "568",
                   "meta_info": {
-                     "last_visited_desktop": "13136394580228743"
+                     "last_visited_desktop": "13136414485425518"
                   },
                   "name": "Installing Sphinx — Sphinx 1.5.6 documentation",
                   "type": "url",
@@ -3224,9 +3224,108 @@
                "id": "541",
                "name": "Sphinx",
                "type": "folder"
+            }, {
+               "date_added": "13140016832468117",
+               "id": "571",
+               "meta_info": {
+                  "last_visited_desktop": "13143225969824366"
+               },
+               "name": "stx5_51001.pdf",
+               "type": "url",
+               "url": "https://www.altera.com/en_US/pdfs/literature/hb/stratix-v/stx5_51001.pdf"
+            }, {
+               "date_added": "13143226100022959",
+               "id": "572",
+               "meta_info": {
+                  "last_visited_desktop": "13143226100025178"
+               },
+               "name": "Stratix Device Handbook, Volume 2, Section 2, Chapter 2: TriMatrix Embedded Memory Blocks in Straix & Stratix GX Devices",
+               "type": "url",
+               "url": "https://www.altera.com/content/dam/altera-www/global/en_US/pdfs/literature/hb/stx/ch_3_vol_2.pdf"
+            }, {
+               "date_added": "13144768570309311",
+               "id": "573",
+               "meta_info": {
+                  "last_visited_desktop": "13145377145615212"
+               },
+               "name": "Modules -- Software Environment Management",
+               "type": "url",
+               "url": "http://modules.sourceforge.net/"
+            }, {
+               "date_added": "13144795974241509",
+               "id": "574",
+               "meta_info": {
+                  "last_visited_desktop": "13144795974242083"
+               },
+               "name": "Environment variables accessed during startup",
+               "type": "url",
+               "url": "http://www.pldworld.com/_hdl/2/_ref/se_html/manual_html/c_proj17.html"
+            }, {
+               "date_added": "13144796237870602",
+               "id": "575",
+               "meta_info": {
+                  "last_visited_desktop": "13144796237870840"
+               },
+               "name": "Inbox (89) - jarens@simplexinvestments.com - Simplex Investments Mail",
+               "type": "url",
+               "url": "https://mail.google.com/mail/u/0/?zx=rvqumhlqk6e#inbox"
+            }, {
+               "date_added": "13144875471470411",
+               "id": "576",
+               "meta_info": {
+                  "last_visited_desktop": "13144875471476306"
+               },
+               "name": "A California businessman born in former Soviet Union also attended Trump Jr. meeting - LA Times",
+               "type": "url",
+               "url": "http://www.latimes.com/politics/washington/la-na-trump-businessman-htmlstory.html"
+            }, {
+               "date_added": "13144939695241199",
+               "id": "577",
+               "meta_info": {
+                  "last_visited_desktop": "13144939695242095"
+               },
+               "name": "DLMF: 16.13 Appell Functions",
+               "type": "url",
+               "url": "http://dlmf.nist.gov/16.13"
+            }, {
+               "date_added": "13145384677844843",
+               "id": "578",
+               "meta_info": {
+                  "last_visited_desktop": "13151442207280862"
+               },
+               "name": "podStation",
+               "type": "url",
+               "url": "chrome-extension://bpcagekijmfcocgjlnnhpdogbplajjfn/podstation.html#/Podcasts"
+            }, {
+               "date_added": "13145389692142936",
+               "id": "579",
+               "meta_info": {
+                  "last_visited_desktop": "13151790653194812"
+               },
+               "name": "t",
+               "type": "url",
+               "url": "http://gtkwave.sourceforge.net/gtkwave.pdf"
+            }, {
+               "date_added": "13146945859575007",
+               "id": "580",
+               "meta_info": {
+                  "last_visited_desktop": "13146945859576720"
+               },
+               "name": "Library Reference — cocotb 1.0 documentation",
+               "type": "url",
+               "url": "http://cocotb.readthedocs.io/en/latest/library_reference.html?highlight=compare"
+            }, {
+               "date_added": "13154625593515063",
+               "id": "584",
+               "meta_info": {
+                  "last_visited_desktop": "13154625593515554"
+               },
+               "name": "org-mode latex fuzzy ltxpng - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?ei=PhYDWtmWLJfijwOQhaHIBA&q=org-mode+latex+fuzzy+ltxpng&oq=org-mode+latex+fuzzy+ltxpng&gs_l=psy-ab.3...281458.281674.0.284884.2.2.0.0.0.0.130.241.0j2.2.0....0...1.1.64.psy-ab..0.0.0....0.uT3CoNYx85s"
             } ],
             "date_added": "13135969505357773",
-            "date_modified": "13136394580228751",
+            "date_modified": "13156527744530438",
             "id": "462",
             "name": "Emacs",
             "type": "folder"
@@ -3415,7 +3514,7 @@
                "date_added": "13135969534631997",
                "id": "490",
                "meta_info": {
-                  "last_visited_desktop": "13136390232623110"
+                  "last_visited_desktop": "13153505933074587"
                },
                "name": "The TCP/IP Guide - TCP Checksum Calculation and the TCP \"Pseudo Header\"",
                "type": "url",
@@ -3424,7 +3523,7 @@
                "date_added": "13135969534633111",
                "id": "491",
                "meta_info": {
-                  "last_visited_desktop": "13135969534633359"
+                  "last_visited_desktop": "13154451078449456"
                },
                "name": "The TCP/IP Guide - IP Datagram General Format",
                "type": "url",
@@ -3511,7 +3610,7 @@
             "date_added": "13136315422555857",
             "id": "500",
             "meta_info": {
-               "last_visited_desktop": "13136315422557454"
+               "last_visited_desktop": "13142983118022120"
             },
             "name": "SFA7942Q",
             "type": "url",
@@ -3557,7 +3656,7 @@
                "date_added": "13136331116169247",
                "id": "506",
                "meta_info": {
-                  "last_visited_desktop": "13136331116169411"
+                  "last_visited_desktop": "13147976338924193"
                },
                "name": "GNU GLOBAL source code tagging system",
                "type": "url",
@@ -3812,7 +3911,7 @@
                "date_added": "13136331365261426",
                "id": "535",
                "meta_info": {
-                  "last_visited_desktop": "13136331365261487"
+                  "last_visited_desktop": "13142527639548168"
                },
                "name": "Download Center",
                "type": "url",
@@ -3857,7 +3956,7 @@
                "date_added": "13136331365261835",
                "id": "540",
                "meta_info": {
-                  "last_visited_desktop": "13136331365261890"
+                  "last_visited_desktop": "13140819026025840"
                },
                "name": "Buy - Cables & Programming Hardware",
                "type": "url",
@@ -3868,9 +3967,36 @@
             "id": "530",
             "name": "Altera Purchases",
             "type": "folder"
+         }, {
+            "date_added": "13156527744530438",
+            "id": "585",
+            "meta_info": {
+               "last_visited_desktop": "13162492274383893"
+            },
+            "name": "GrubHub",
+            "type": "url",
+            "url": "https://officeorders.grubhub.com/simplex-investments"
+         }, {
+            "date_added": "13158342781222584",
+            "id": "586",
+            "meta_info": {
+               "last_visited_desktop": "13158342781224086"
+            },
+            "name": "Protocol Help - 2.0.0",
+            "type": "url",
+            "url": "http://www.inacon.de/ph/data/TCP/Header_fields/TCP-Header-Field-Checksum_OS_RFC-793.htm"
+         }, {
+            "date_added": "13159484871088168",
+            "id": "587",
+            "meta_info": {
+               "last_visited_desktop": "13159484871088742"
+            },
+            "name": "Employee Directory - SimplexPortal",
+            "type": "url",
+            "url": "http://portal.simplexinvestments.com/index.php/Employee_Directory"
          } ],
          "date_added": "13130866240092999",
-         "date_modified": "13136331365261942",
+         "date_modified": "13159484871088168",
          "id": "1",
          "name": "Bookmarks bar",
          "type": "folder"

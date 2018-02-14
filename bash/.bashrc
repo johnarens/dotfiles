@@ -18,7 +18,7 @@ svndiff()
 
 
 # added by Anaconda2 4.3.0 installer
-export PATH="/home/simplex/anaconda2/bin:$PATH"
+# temp export PATH="/home/simplex/anaconda2/bin:$PATH"
 
 # GNU Global
 export LESSGLOBALTAGS=global
@@ -50,7 +50,10 @@ export PROMPT_COMMAND='printf "\033]0;%s@%s:%s\007" "${USER}" "${HOSTNAME%%.*}" 
 # java -jar plantuml.jar -tsvg sequenceDiagram.txt
 alias plantuml='java -jar /home/simplex/bin/plantuml.jar '
 
-export MODULEPATH=${MODULEPATH}:/home/simplex/modulefiles:/home/simplex/svn/trunk/fpga/modulefiles
+export MODULEPATH=${MODULEPATH}:/home/simplex/modulefiles:/home/simplex/git/simplex/fpga/modulefiles
+
+alias quartus_sh="rlwrap \quartus_sh "
+
 
 # module load py36/i686
 # alias python=`which python3.6`
@@ -75,3 +78,12 @@ export MODULEPATH=${MODULEPATH}:/home/simplex/modulefiles:/home/simplex/svn/trun
 # export SIM=modelsim
 # ARCH=i686 make
 # export COCOTB=/home/simplex/git/cocotb
+
+
+# Add  to MANPATH.
+# Add /usr/local/texlive/2017/texmf-dist/doc/info to INFOPATH.
+# Most importantly, add /usr/local/texlive/2017/bin/x86_64-linux
+
+export MANPATH=${MANPATH}:/usr/local/texlive/2017/texmf-dist/doc/man
+export INFOPATH=${INFOPATH}:/usr/local/texlive/2017/texmf-dist/doc/info
+export PATH=${PATH}:/usr/local/texlive/2017/bin/x86_64-linux

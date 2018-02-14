@@ -1,1000 +1,1000 @@
-echo $PS1
-pwd
-ls
-ls .
-cd ..
-ls
-cd ..
-ls
-dirs
-popd
-emacs ctb_elastic_interface.py &
-dnf
-sudo yum install dnf
-dnf install gstreamer1-devel gstreamer1-plugins-base-tools gstreamer1-devel-docs gstreamer1-plugins-base-devel gstreamer1-plugins-base-devel-docs gstreamer1-plugins-good gstreamer1-plugins-good-extras gstreamer1-plugins-ugly gstreamer1-plugins-ugly-devel-docs  gstreamer1-plugins-bad-free gstreamer1-plugins-bad-free-devel gstreamer1-plugins-bad-free-extras
-man gtkwave
-man wlf2vcd 
-wlf2vcd --help
-wlf2vcd -help
-less sim_build/vsim.wlf 
-less sim_build/vsim.vcd
-ipython
-ls ~/svn/trunk/fpga/modulefiles
-ls ~/svn/trunk/fpga/modulefiles/
-pushd ~/svn/trunk/fpga/modulefiles
-ls
-svn status
-svn up
-pwd
-popd
-ls
-cd ..
-ls
-ls -al modulefiles
-rm modulefiles
-ls -al modulefiles
-ls ~/svn/trunk/fpga/
-ls ~/svn/trunk/fpga/modulefiles/
-mkdir modulefiles
-bash
-less /etc/hosts
-scp /mnt/apps/jgreen/share/Downloads/Quartus-16.1.2.203-linux-complete.tar sx@offfpga2:~/.
-scp /mnt/apps/jgreen/share/Downloads/Quartus-16.1.2.203-linux-complete.tar sx@offfpga2:~/Downloads
-ssh offfpga2 ls
-ssh offfpga2 mkdir -p ~/Downloads/Quartus
-ssh offfpga2 'mkdir -p ~/Downloads/Quartus'
-svn commit -m 
-svn commit -m 'Added directories'
-svn commit -m 'Added directories' ~/svn/trunk/fpga/sx/
-svn commit -m 'Added directories' ~/svn/trunk/fpga
-svn status ~/svn/trunk/fpga
-svn status ~/svn/trunk/fpga/sx
-svn ls ~/svn/trunk/fpga/sx
-svn ls ~/svn/trunk/fpga
-pushd ~/svn/trunk/fpga
-svn status ip
-svn status sx
-svn add sx
-svn up
-svn status sx
-svn ls sx
-svn add sx
-svn up
-ping offfpga2
-less ~/.bashrc
-pwd
-cd users/
-cd jarens/
 ls
 cd projects/
+cd elastic_interface/
 ls
-cd qsys/
+clear; make WAVES=1 sims
+cd ../master_array_rom/
 ls
-svn mkdir tt_qsys_design
-svn up
-svn mkdir tt_qsys_design
-svn add ..
-cd ..
-svn up
-svn ls
-snv status
-svn status
-svn add qsys
-cd qsys/
-svn mkdir tt_qsys_design
-cd tt_qsys_design/
-ls
-cp ~/Downloads/tt_qsys_design.zip .
-unzip tt_qsys_design.zip 
-ls
-mv -r tt_qsys_design/* .
-ls tt_qsys_design
-mv -r tt_qsys_design/completed_subsystems/ .
-man mv
-mv tt_qsys_design/completed_subsystems/ .
-ls
-mv tt_qsys_design/memory_tester_ip/ .
-mv tt_qsys_design/quartus_ii_projects_for_boards/ .
-mv tt_qsys_design/simulation_tutorial/ .
-mv tt_qsys_design/tt_qsys_design_readme.txt .
-ls tt_qsys_design
-ls
-rm tt_qsys_design
-rm -r tt_qsys_design
-ls
-rm tt_qsys_design.zip 
-ls
-less tt_qsys_design_readme.txt 
-cd quartus_ii_projects_for_boards/
-ls
-cd stratix_IV_4sgx230/
-ls
-less my_constraints.sdc 
-less SIV.qpf 
-less SIV.qsf 
-ls
-pwd
-ls
-less SIV.qpf 
-pushd ../..
-ls
-less tt_qsys_design_readme.txt 
-ls
-less tt_qsys_design_readme.txt 
-ls
+clear; make WAVES=1 sims
+notify-send -=h
+notify-send -h
+notify-send 
+notify-send "Test"
+notify-send --help
+notify-send -t 100000 "Summary" "Body"
+man notify-send
+info notify-send
+import gi
+gi.require_version('Gio', '2.0')
+from gi.repository import Gio
+Application=Gio.Application.new ("hello.world", Gio.ApplicationFlags.FLAGS_NONE);
+Application.register ();
+Notification=Gio.Notification.new ("Hello world");
+Notification.set_body ("This is an example notification.");
+Icon=Gio.ThemedIcon.new ("dialog-information");
+Notification.set_icon (Icon);
+Application.send_notification (None, Notificati
+python
+notify-send 'Hello world!' 'This is an example notification.' --icon=dialog-information
+sudo yum install libnotify
+sudo tail -n 80 /var/log/messages
+sudo tail -n 80 /var/log/messages | grep not
+sudo tail -n 80 /var/log/messages | grep -i notif
+journalctl | grep abrt
+ps -elf | grep notify
+clear
+git status
+git pull
 dirs
-pushd +1
+cd ~/eda/intelFPGA/17.0/ip/
 ls
-pushd +1
+cd altera/l
+cd altera/
 ls
-pushd /mnt/apps/jgreen/share/Documents/Vendors/Solarflare
+find . -name '*.sdc.terp'  | less
+find . -name '*_hw.tcl'  | less
+find . -name '*_hw.tcl' -exec grep -i compo {} +
+find . -name '*_hw.tcl' -exec grep -i compo {} + | less
+less ./merlin/altera_merlin_mins_network_generator/altera_merlin_mins_network_generator_hw.tcl
+find . -name '*_hw.tcl' -exec less
+find . -name '*_hw.tcl' -exec less {} +
+find . -name '*_hw.tcl' -exec grep -i compo {} +
+less ./altera_msgdma/top/altera_msgdma_hw.tcl
+find . -name '*_hw.tcl' -exec grep -i compo {} +
+man grep
+find . -name '*_hw.tcl' -exec grep -H -i compo {} +
+man grep
+less ./university_program/clocks/altera_up_avalon_sys_sdram_pll/altera_up_avalon_sys_sdram_pll_hw.tcl
+find . -name '*_hw.tcl' -exec grep -H -i compo {} +
+find . -name '*_hw.tcl' -exec grep -H -i compo {} + | less
+less ./merlin/altera_merlin_mins_network_generator/altera_merlin_mins_network_generator_hw.tcl
+find . -name '*_hw.tcl' -exec grep -H -i compo {} + | less
+find . -name '*_hw.tcl' -exec grep -H -i compo {} + | xargs $1
+find . -name '*_hw.tcl' -exec grep -H -i compo {} + | xargs print $1
+find . -name '*_hw.tcl' -exec grep -H -i compo {} + | xargs printf $1
+find . -name '*_hw.tcl' -exec grep -H -i compo {} + | less
+less ./merlin/altera_merlin_slave_translator/altera_merlin_slave_translator_hw.tcl
+find . -name '*_hw.tcl' -exec grep -H -i compo {} + | less
+less ./merlin/altera_merlin_axi_slave_ni/altera_merlin_axi_slave_ni_hw.tcl
+find . -name '*_hw.tcl' -exec grep -H -i add_fileset {} + | less
+less ./merlin/altera_address_span_extender/altera_address_span_extender_hw.tcl
+find . -name '*_hw.tcl' -exec grep -H -i add_fileset_file {} + | less
+less ./merlin/altera_reset_controller/altera_reset_controller_hw.tcl
+find . -name '*_hw.tcl' -exec grep -H -i add_fileset_file {} + | less
+find . -name '*_hw.tcl' -exec grep -l -i add_fileset_file {} + | less
+find . -name '*_hw.tcl' -exec grep -H -i add_fileset_file {} + | less
+find . -name '*_hw.tcl' -exec grep -H -i add_fileset_file {} + | xargs less {}
+find . -name '*_hw.tcl' -exec grep -H -i add_fileset_file {} + | xargs -I{} less {}
+find . -name '*_hw.tcl' -exec grep -H -i add_fileset_file {} + | xargs -I{} echo {}
+find . -name '*_hw.tcl' -exec grep -l -i add_fileset_file {} + | xargs -I{} echo {}
+find . -name '*_hw.tcl' -exec grep -l -i add_fileset_file {} + | xargs -I{} less {}
+sudo reboot
+cd ~/git/simplex/fpga/users/jarens/projects/
+git status
 ls
-cd FDK_3_2_0/sorrento_fdk_rtl_release_area/sorrento_fdk_release_pkg/rtl_source/
+ls -al
+gnome-documents 
+env 
+env | grep PATH
+less ~/.bashrc
+PATH="/home/simplex/anaconda2/bin:$PATH" gnome-documents
+clear
+gnome-documents 
+sudo yum install dbus
+gnucash
+gnome-keyring
+gnome-clocks 
+gnome-documents 
+gnome-software 
+gnome-documents 
+sudo gnome-documents 
+sudo yum install packagekit
+sudo yum install PackageKit
+tail /var/log/messages
+sudo tail /var/log/messages
+sudo gnome-documents 
+gnome-documents 
+sudo tail /var/log/messages
+sudo yum install dbus
+systemctl --user
+dbus-launch 
+gnome-documents 
+sysctl status systemd-logind.service
+systemctl status dbus.socket
+gnome-documents 
+ systemctl start sshd
+sudo yum install dbus
+gnome-documents 
+gnome-documents aaaAADFASDasdfasdf
+reset
 ls
-cd reference_design/
+gnome-documents 
+sudo tail /var/log/messages
+systemctl list-units  
+gnome-documents --version
+gnome-documents --help
+gnome-documents --help-all
+gnome-documents --gapplication-service
+sudo gnome-documents
+sudo tail /var/log/messages
+sudo gnome-documents
+sudo tail /var/log/messages
+ls ~/.config/autostart/
+goa-daemon
+sudo yum install goa
+sudo yum install goa-daemon
+gnome-keyring
+gnome-keyring version
+sudo yum info gnome-keyring
+sudo yum install gnome-keyring
+gnome-documents
+sudo yum info gnome-keyring
+gnome-documents --version
+gnome-documents
+sudo yum upgrade
+gnome-documents
+gnome-contacts 
+gnome --version
+locate goa-daemon
+/usr/libexec/goa-daemon --replace
+sudo /usr/libexec/goa-daemon --replace
+sudo yum install  gnome-online-accounts
+locate gnome-online-accounts
+locate gnome-online-accounts | less
+pushd /usr/share/gnome-online-accounts/
 ls
-less sf_fdk_ref_design_top.sv 
-grep -i IS_ *.sv
-less sf_fdk_ref_design_fpga_top.sv
-ls
-ls ..
-ls
-cd ..
-ls
-cd ..
-ls
-cd quartus/
-ls
-cd constraints/
-ls
-less base_constraints 
-cd ..
-cd parameters/
-ls
-less build_parameters 
-less templates/build_parameters_1x40_1x40_0000_V0
-cd ..
-find . -name '*.sv' -exec grep QSFP0_PATH0_10G {} +
-ls
-cd ..
-cd rtl_source/
-find . -name '*.sv' -exec grep QSFP0_PATH0_10G {} +
-less ./reference_design/sf_fdk_ref_design_fpga_top.sv
-ssh offfpga2
-less ./reference_design/sf_fdk_ref_design_fpga_top.sv
-ssh offfpga2
-pushd ~/Solarflare/
-ls
-scp *.zip offfpga2:/home/sx/Downloads/
-ssh offfpga2
-ls
-locate quartus_sys
-locate quartus_qsys
-locate qsys
-locate qsys | less
-locate qsys | grep bin
-dirs
-pushd ~/svn/trunk/fpga/users/jarens/
-ls
-cd aoe/
-ls
-cd ..
-ls
-cd projects/qsys/
-ls
-cd qsys_centric/
-/home/simplex/eda/intelFPGA/16.1/quartus/sopc_builder/bin/qsys-edit top.sys
+popd
+gnome-documents
+sudo /usr/libexec/goa-daemon --replace
+sudo /usr/lib/goa-daemon --replace
+sudo yum remove gnome-documents
+sudo yum install gnome-documents
+gnome-documents
+sudo tail /var/log/messages
+dbus-monitor 'path=/org/gnome/OnlineAccounts'
+dbus-monitor 'path=/org/gnome/OnlineAccounts' 'path=/org/gnome/OnlineAccounts/Manager'
+dbus-monitor 'path=/org/gnome/OnlineAccounts'
+gnome-control-center 
+sudo yum install gstreamer
+sudo yum install gstreamer-git
+sudo yum install gnome-meta-package
+sudo yum install meta-package
+gnome-control-center 
+less /var/log/messages
+sudo less /var/log/messages
+sudo less /var/log/messages.1
+sudo less /var/log/messages
+sudo yum install gnome-control-center
+sudo yum install libgsttag
+sudo yum install gsttag
+sudo yum search libgsttag
+strace -o logfile gnome-control-center
+locate libgsttag
+PATH="/home/simplex/anaconda2/bin:$PATH" gnome-control-center
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/home/simplex/anaconda2/lib  gnome-control-center
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/home/simplex/anaconda2/envs/venv/lib  gnome-control-center
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/lib64/  gnome-control-center
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/lib64/gstreamer-1.0 gnome-control-center
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/lib64/gstreamer-0.10 gnome-control-center
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/home/simplex/anaconda2/pkgs/gst-plugins-base-1.8.0-0/lib/ gnome-control-center
+gnome-control-center --verbose
+locate libgsttag
+sudo rpm -qa | grep gstreamer-1.0
+sudo rpm -qa | grep gstreamer
+sudo yum install gstreamer1
+locate libgsttag
+gnome-control-center --verbose
+gnome-documents
+gnome-control-center 
+tracker-control --status
+locate tracker_controll
+locate tracker_control
+sudo yum install gnome3.4
+sudo yum search gnome
+sudo yum groupsearch gnome
+sudo yum group search gnome
+gnome-documents
+sudo yum install trackerminerfs
+sudo yum install tracker-miner
+sudo yum install tracker-miner-fs
+sudo yum search tracker-miner-fs
+sudo yum search tracker-miner
+sudo yum search tracker
+sudo yum install tracker
+sudo yum install tracker-devel
+gnome-documents
+sudo yum install tracker
+sudo yum search tracker1
+sudo yum search tracker*
+sudo yum install evince
+sudo yum install magick
+ls -ltra /tmp
+sudo yum search evince*
+sudo yum search evince
+sudo yum search evince-libs
+sudo yum install evince-libs
+sudo yum install evince-devel
+sudo yum install evince
+gnome-documents
+sudo yum install libraoffice
+sudo yum install libreoffice
+gnome-documents
 bg
-dirs
-pushd +1
+gnome-control-center --version
+sudo yum install gnome-shell
+sudo yum install gpaste
+sudo yum install gnome-settings-daemon
+sudo yum install gnome-common
+sudo yum install gtk3
+sudo yum install gnome-desktop
+fg
+gnome-documents
+sudo yum install evince
+sudo yum install inkscape
+gnome-documents
+sudo yum install dia
+gnome-documents
+sudo yum install gnomedesktop
+sudo yum install gnome-desktop
+gnome-open 
+jobs
+gnome-documents
+gnome-documents --verbose
+gnome-documents --help
+
+gnome-documents
+sudo yum install libglib
+sudo yum search libglib
+sudo rpm -qa | grep libglib
+sudo yum install glib
+sudo yum install glib-devel
+gnome-documents
+sudo journalctl -f
+gnome-documents
+gnome-shell
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/home/simplex/anaconda2/pkgs/gst-plugins-base-1.8.0-0/lib/ gnome-control-center
+gnome-tweak-tool 
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/home/simplex/anaconda2/pkgs/gst-plugins-base-1.8.0-0/lib/ gnome-tweak-tool
+exec ck-launch-session gnome-session
+evince
+python
+sudo yum search gsettings
+sudo yum install -y gsettings-desktop-schemas
+sudo yum install -y evince-common
+sudo yum install -y dconf-gsettings-backend
+sudo yum search dconf-gsettings-backend
+sudo yum search dconf
+sudo yum install -y dconf-devel dconf
+sudo yum search libatk1.0-0
+sudo yum search libatk1
+sudo yum search libc6
+sudo yum search dbus
+sudo yum install -y dbus-python-devel dbus-glib-devel dbus-libs dbus-python dbus-x11
+sudo yum install -y dbus-python dbus-glib dbus-libs dbus-python dbus-x11
+gnome-documents
+sudo yum search lbevdocuments
+sudo yum search lbevdocument
+sudo yum search libevdocument
+sudo yum search libevdocument3
+sudo yum search libgdk
+sudo yum search libglib
+sudo yum search glib
+sudo yum install -y glib gvfs gvfs-client json-glib
+gnome-documents
+sudo yum install -y glib gvfs gvfs-client
+sudo yum install -y gvfs gvfs-client
+sudo yum install -y --skip-broken gvfs gvfs-client
+gnome-documents
+ls -ltra /tmp
+rm /tmp/.X0-lock 
+sudo rm /tmp/.X0-lock 
+gnome-documents
+sudo yum repolist all
+sudo yum repolist all | grep ana
+strace gnome-documents
+strace gnome-control-center
+strace gnome-documents
+cd Downloads/
+unzip gnome-documents-master.zip 
+cd gnome-documents-master/
 ls
-pushd +1
+less README 
+./autogen.sh 
+./configure
 ls
-pushd +1
+make
+less README 
+cd getting-started/
 ls
-popd
-pushd +1
+make
+less Makefile.am 
+make all
+./configure.ac
+cd help
 ls
+cd ..
+sl
+ls
+cd man
+ls
+cd ..
+ls
+less TODO 
+which gnome-documents
+sudo yum install gjs
+sudo yum install gnome-desktop
+sudo yum install gnome-desktop3
+sudo yum install libgdata
+sudo yum install libzapojit
+sudo yum install tracker
+gnome-documents 
+sudo yum install evince-3
+sudo yum search evince
+sudo yum search evince-devel
+sudo yum install evince-devel
+sudo yum install evince
+sudo yum install gnome-online-miners
+gnome-documents 
+sudo shutdown -r
+emacs -nw
+echo PATH
+echo #PATH
+echo $PATH
+top
 pwd
-popd
-ls
-pushd +1
-ls
-locate FDK_5
-locate FDK_
-locate FDK_3_2
-pushd /home/simplex/Downloads/FDK_3_2_0
-ls
-cd sorrento_fdk_rtl_release_area/
-ls
-cd sorrento_fdk_release_pkg/
-ls
-cd quartus/
-ls
-cd constraints/
-ls
-less base_constraints 
-ls
-less fkr_ios 
-grep GLOBAL_CLOCK *
-less base_constraints 
-ls
-cd ..
-ls
-cd sdc
-ls
-less common_sdc.sdc 
-less core_app.sdc 
-less sf_fdk_ref_pmapt_design_fpga_top.sdc 
+python -c "import Pymacs"
+which python
+which -a python
+sudo which -a python
+ls -la /bin/py
+ls -la /bin/python
+sudo which python2
+which python2
+ls -la /bin/python2
+ls -la /bin/python2.7
+file /bin/python2.7
+file /usr/bin/python2.7
+python -c "import Pymacs"
+sudo python -c "import Pymacs"
+/usr/bin/python -c "import Pymacs"
+/bin/python -c "import Pymacs"
+ls /usr/lib/python2.7/site-packages/
+locate site-packages |less
+sudo updatedb
+locate site-packages |grep -i pymacs
+while true; do     ps -h -p `pidof emacs` -O rss; sleep 1;   done
+cd ~/.emacs.d/
 ls
 cd ..
+cd emacs-dot-d-configs/
 ls
-cd parameters/
+less jarens/
+ls -al stable/
+ls -al
+texconfig
+tlmgr bytefield
+tlmgr bytefields
+tlmgr --help
+tlmgr info bytefields
+tlmgr info bytefield
+tlmgr install bytefield
+sudo tlmgr install bytefield
+sudo `which tlmgr` install bytefield
+emacs stable/init.el
+cd ..
+ls -al
+unlink ~/.emacs.d
+man ln
+ln -h
+ln --help
+ln -s ~/emacs-dot-d-configs/jarens/ ~/.emacs.d
+emacs ~/.emacs.d/init.el
+emacs
+ls -al
+emacs
+cd .emacs.d/
 ls
-less build_parameters 
-less README.txt 
-less templates/build_parameters_2x10_2x10_m2m_passthrough_0000_64bit 
+rm -r elpa/
+cd ..
+emacs
+emacs .emacs.d/emacs.org
+emacs
+emacs --debug-init
+python
+pip -v
+pip -V
+sudo pip install rope ropemacs
+sudo pip install --upgrade rope ropemacs
+python -V
+python -c 'import Pymacs'
+sudo pip install -e "git+https://github.com/pinard/Pymacs.git#egg=Pymacs"
+python -c 'import Pymacs'
+sudo pip install "git+https://github.com/pinard/Pymacs.git#egg=Pymacs"
+sudo pip install --upgrade "git+https://github.com/pinard/Pymacs.git#egg=Pymacs"
+python -c 'import Pymacs'
+sudo pip -V
+sudo pip install --upgrade pip
+sudo pip install --upgrade "git+https://github.com/pinard/Pymacs.git#egg=Pymacs"
+python -c 'import Pymacs'
+sudo pip -V
+sudo which pip
+env | grep -i pytho
+python -c 'import
+python -c 'import Pymacs'
+python
+echo $PYTHONPATH
+python -c "import sys; print(sys.path)"
+ls /usr/lib/python2.7/site-packages
+man pip
+pip --help
+sudo pip freeze
+sudo pip freeze | grep pymacs
+sudo pip freeze | grep -i pymacs
+sudo python -c 'import Pymacs'
+python -c 'import Pymacs'
+pip freeze | grep -i pymacs
+python -c 'import Pymacs'
+which pip
+python -c 'import Pymacs'
+sudo python -c 'import Pymacs'
+locate python
+sudo pip uninstall Pymacs
+python -V
+sudo python -V
+pip -V
+sudo pip -V
+which pip
+sudo which pip
+ls -al /bin/pip
+ls -al /usr/bin/pip
+md5sum /bin/pip
+md5sum /usr/bin/pip
+ls -alt /usr/bin/pip
+sudo pip install Pymacs
+sudo pip install "git+https://github.com/pinard/Pymacs.git#egg=Pymacs"
+sudo pip freeze | grep -i Pymacs
+pip freeze | grep -i Pymacs
+python -c 'import Pymacs'
+
+
+sudo python -c 'import pymacs'
+sudo python -c 'import pymac'
+sudo python -c 'import Pymacs'
+python -c 'import Pymacs'
+echo $PYTHONPATH 
+python -c "import sys; print(sys.path)"
+PYTHONPATH=/usr/lib/python2.7/site-packages python -c 'import Pymacs'
+PYTHONPATH=/usr/lib/python2.7/site-packages python -c 'import pymacs'
+sudo PYTHONPATH=/usr/lib/python2.7/site-packages python -c 'import pymacs'
+strace PYTHONPATH=/usr/lib/python2.7/site-packages python -c 'import pymacs'
+PYTHONPATH=/usr/lib/python2.7/site-packages strace python -c 'import pymacs'
+PYTHONPATH=/usr/lib/python2.7/site-packages strace python -c 'import pymacs' | less
+PYTHONPATH=/usr/lib/python2.7/site-packages strace python -c 'import pymacs' 2>&1 | less
+cd /usr/lib/python2.7/site-packages
+ls
+cd Pymacs-0.25-py2.7.egg-info/
 ls
 cd ..
-ls
-cd synthesis/
-ls
-cd ../build/
-ls
-less sf_fdk_ref_design_fpga_top.qpf 
-cd ../constraints/
-ls
-less sodimm3_ddr3_discrete.qsf 
-grep _location_ *
-grep _location_ * | less
-grep _location_ * | grep ck
-ls
-grep 5.0 *
-grep 200 *
-ls
+sudo pip uninstall Pymacs
+sudo pip help
+sudo pip help install
+sudo pip install rope ropemacs
 cd ..
+cd .
+cd ~
+cd Downloads/
+emacs
+cd ../
 ls
-cd parameters/
+cd emacs-dot-d-configs/jarens/
 ls
-less build_parameters 
-cd ../sdc/
+rm -r elpa/
+emacs
+emacs --debug-init
+emacs
+bg
+locate epy-python.el
+locate pymacs.el
+ls ~/.emacs.d/elpa/pymacs-0.25/pymacs.el
+md5sum /home/simplex/.emacs.d/elpa/pymacs-0.25/pymacs.el
+md5sum /home/simplex/dotfiles/emacs/.emacs.d/el-get/pymacs/pymacs.el
+diff /home/simplex/.emacs.d/elpa/pymacs-0.25/pymacs.el /home/simplex/dotfiles/emacs/.emacs.d/el-get/pymacs/pymacs.el
+emacs
+PYTHONPATH=/usr/lib/python2.7/site-packages strace python -c 'import pymacs' 2>&1 | less
+python -c 'import pymacs'
+python -c 'import Pymacs'
+emacs
+cd ~/Downloads/
 ls
-grep 200 *
-less common_sdc.sdc 
+ls -ltra
+git clone https://github.com/pinard/Pymacs.git 
+cd Pymacs/
 ls
-grep _location_ * | grep ck
-grep _location_ * | grep clk_mem
-grep clk_mem *.sdc
-grep clk_mem_c *.sdc
+sudo pip install -e Pymacs.py
+less README.org 
+make
+ls
+python setup.py build
+sudo python setup.py install
+python -c 'import Pymacs'
+emacs
+emacs --debug-init
+PYTHONPATH=/usr/lib/python2.7/site-packages emacs --debug-init
+locate pymacs.el
+ls
+make all
+sudo make install
+locate pymacs.el
+less Makefile 
+ls
+cd pppp
+ls
+less Makefile 
+make pppp.pdf
+less Makefile
+make check
+sudo make install
+less pymacs.el
+locate pymacs.el
+pushd ../../emacs-dot-d-configs/jarens/
+ls
+cd elpa/
+ls
+make pymacs
+mkdir pymacs
+ls
 dirs
+cp ~/Downloads/Pymacs/pymacs.el pymacs/.
+cd ..
+emacs emacs.org
+bg
+ls
+mkdir elisp
+mkdir elisp/Pymacs
+cd elpa/
+ls
+mv pymacs/pymacs.el ../elisp/Pymacs/.
+rm -r pymacs/
+emacs emacs.org
+PYTHONPATH=/usr/lib/python2.7/site-packages emacs --debug-init
+emacs --debug-init
+emacs
+emacs --debug-init
+cd ~
+emacs junk.py 
+cd emacs-dot-d-configs/
+ls
+ls -al
 cd ..
 ls
-cd constraints/
-grep _location_ * | grep clk_mem_c
+git clone git@github.com:johnarens/emacs-dot-d.git
+ls
+cd emacs-dot-d
+ls
+ls -al
+cp ../emacs-dot-d-configs/jarens/*.el .
+cp ../emacs-dot-d-configs/jarens/*.org .
+ls
+cp ../emacs-dot-d-configs/jarens/README.md .
+cp ../emacs-dot-d-configs/jarens/.gitignore .
+cp ../emacs-dot-d-configs/jarens/LICENSE  .
+ls
+git add -u
+git status
+git add *
+git add -f emacs.el
+git status 
+git add -f .gitignore
+ls
+git status 
+cp ../emacs-dot-d-configs/jarens/elisp/Pymacs/pymacs.el .
+git sta
+git status 
+git add pymacs.el
+ls
+git reset pymacs.el
+git status
+mkdir elisp
+mkdir elisp/Pymacs
+mv pymacs.el elisp/Pymacs/.
+git status
+git add elisp/
+ls
+git status 
+git commit -am 'Initial creation'
+git push
+unlink ~/.emacs.d/
+cd ..
+ls
+ls -al
+ls -al .emacs.d/
+rm .emacs.d
+ln -s ~/emacs-dot-d ~/.emacs.d
+emacs junk.py
+git status
+git status ~/emacs-dot-d
+cd emacs-dot-d
+ls
+git status 
+git add emacs.org
+git status
+git reset HEAD emacs.org
+git status
+emacs emacs.org README.md 
+git status 
+git add README.md emacs.org
+git commit -am 'Giving credit to the references'
+git push
+emacs 
+bg
+sudo yum search maxiplot
+sudo yum search maxima
+emacs --help
+emacs -Q emacs.org &
+emacs emacs.org &
+top
+pmap -d 9941
+watch -n 10 pmap -d 9941
+watch -n 10 'pmap -d 9941 | tail -10'
+watch -n 10 'pmap -d 9941 | tail -1'
+cat /proc/9941/smaps
+emacsclient 
+emacsclient --help
+emacs --daemon
+while true; do     for i in `seq 10`; do       timeout 5 emacsclient -a '' -c & ;
+    done;
+    sleep 10;
+  done
+jobs
+while true; dofor i in `seq 10`;  do timeout 5 emacsclient -a '' -c &;
+while true; do     for i in `seq 10`; do       timeout 5 emacsclient -a '' -c & ;
+    done;
+    sleep 10;
+zsh
+while true; do     for i in `seq 10`; do       timeout 5 emacsclient -a '' -c & ; done; sleep 10; done
+while true; do     for i in `seq 10`; do       timeout 5 emacsclient -a '' -c & done; sleep 10; done
+man ps
+info ps
+echo $MANPATH
+emacs ~/.bashrc
+df -h /tmp/
+gnome-documents 
+nautilus 
+bg
+find . -name '*.odt'
+cd ~/svn/trunk/fpga/users/jarens/mitm/
+ls
+locate mitm
+cd /home/simplex/git/simplex/fpga/users/jarens/mitm
+ls
+less README 
+less ack_table.txt 
+plantuml ack_table.txt; display ack_table.png
+bg
+locate plantuml.jar
+emacs ~/.emacs.d/init.el
+emacs ~/.emacs.d/init.el ack_table.txt
+emacs ~/.emacs.d/init.el
+emacs ~/.emacs.d/init.el ack_table.txt
+emacs ~/.emacs.d/init.el ack_table.txt ack_table.org &
+ls
+less ack_table.txt 
+ls
+rm junk.org 
+less ipv4_header.diag 
+ls
+evince scraps.pdf 
+emacs scraps.org
+bg
+evince scraps.pdf 
+watch --diff cat /proc/interrupts
+zgrep ^CONFIG_HZ= /proc/config.gz
+watch -d -n1 grep LOC: /proc/interrupt
+lspci -tv
+perf record -C 1 -e  workqueue:workqueue_execute_start -e workqueue:workqueue_execute_end  -o wrk_start_$(date "+%Y-%m-%d_%H%M")  -- sleep 300
+sudo perf record -C 1 -e  workqueue:workqueue_execute_start -e workqueue:workqueue_execute_end  -o wrk_start_$(date "+%Y-%m-%d_%H%M")  -- sleep 300
+less wrk_start_2017-11-02_1056
+sudo less wrk_start_2017-11-02_1056
+ls -ltr
+sudo rm wrk_start_2017-11-02_1056 
+ls -ltr
+ls /etc/rc.d/init.d/README 
+less /etc/rc.d/init.d/README 
+ls
+ls /etc/rc.d/init.d/functions 
+less /etc/rc.d/init.d/functions 
+less /etc/sysconfig/init 
+less /etc/init.d/functions 
+which bind
+sudo which bind
+man bind
+pgrep init
+sudo pgrep init
+which $$
+echo $$
+less /sbin/init 
+less /etc/rc.d/rc.sysinit
+less /etc/rc.d/rc.local
+less /etc/inittab 
+locate systemd
+man systemd
+sudo which systemd
+sudo which Systemd
+less /usr/lib/systemd/systemd
+pushd  /usr/lib/systemd
+ls
+less system
+cd system
+less default.target
 ls
 cd ..
 ls
-cd ..
+less system/initial-setup.service 
+less system/iprinit.service 
+find . -name '*.service' --exec grep DESCR {} + | less
+find . -name '*.service' -exec grep DESCR {} + | less
+find . -name '*.service'
+find . -name '*.service' -exec grep DESCR {} + 
+find . -name '*.service' -exec grep -i DESCR {} + 
+find . -name '*.service' -exec grep -i DESCR {} + | less
+module load cocotb
+less /home/simplex/opt/python32/bin/python-config
+module load cocotb
+less /home/simplex/opt/python32/bin/python-config
+ls /opt/python32/bin/python-config
+ln -s /home/simplex/opt/python32/bin/python-config /opt/python32/bin/python-config
+ln -s /opt/python32/bin/python-config /home/simplex/opt/python32/bin/python-config
+ls /opt/python32/bin/python-config
+man ln
+export MANPATH=
+man ln
+ln -s /opt/python32/bin/python-config /home/simplex/opt/python32/bin/python-config
+mkdir -p /home/simplex/opt/python32/bin/
+ln -s /opt/python32/bin/python-config /home/simplex/opt/python32/bin/python-config
+ln -s /opt/python32/bin/python /home/simplex/opt/python32/bin/python
+module unload cocotb/latest 
+module load cocotb/latest 
+python -V
+locate libpython3.6m.so.1.0
+echo $LD_LIBRARY_PATH 
+ln -s /opt/python32/lib /home/simplex/opt/python32/lib
+python -V
+cd git/simplex/
 ls
-cd rtl_source/
-ls
-find . -name '*.sv' -exec grep i_pll {} + 
-less ./reference_design/sf_fdk_ref_design_fpga_top.sv
-ls
-find . -name '*.sv' -exec grep pll {} + 
-find . -name '*.sv' -exec grep i_pll {} + 
-cd reference_design/
-ls
-find . -name '*.sv' -exec grep 'module ppl' {} + 
-find . -name '*.sv' -exec grep 'ppl' {} + 
-find . -name '*.sv' -exec grep 'module pll' {} + 
-find . -name '*.sv' -exec grep 'pll' {} + 
-find . -name '*.sv' -exec grep 'pll' {} + | less
-ls
-find . -name '*.sv' -exec grep 'clk_mem_cb' {} + | less
-less ./sf_fdk_ref_design_top.sv
-find . -name '*.sv' -exec grep 'clk_mem_cb' {} + | less
-less ./sf_fdk_ref_design_fpga_top.sv
-ls
-find . -name '*.sv' -exec grep 'ddio' {} + | less
-ls
-less ./sf_fdk_ref_design_fpga_top.sv
-cd ..
-ls
-find . -name '*.sv' -exec grep 'ddio' {} + | less
-find . -name '*.sv' -exec grep 'pll_50MH' {} + | less
-cd ..
-find . -name '*.sv' -exec grep 'pll_50MHz' {} + | less
-find . -name '*' -exec grep 'pll_50MHz' {} + | less
-ls
-cd rtl_source/
-ls
-cd common_blocks/
-ls
-less pll.v
-less pll_0002.v 
-ls
-sudo yum install environment-modules
-module
-ls /opt/python32/
-pwd
-cd svn
-ls
-cd trunk/
-ls
-cd fpga/
-ls
-svn add sx
-svn up
-svn mkdir sx
-cd sx
-svn mkdir ip
-svn commit -m 'Added directories to use a Qsys IP repository' ../sx 
-cd ../..
 cd fpga/users/jarens/
 ls
 cd projects/
 ls
-mkdir qsys
-cd qsys
-mkdir quartus_centric
-mkdir qsys_centric
-echo 192.168.70.71  fpgatest1" to your /etc/hosts
-"
-less /etc/hosts
-sudo echo "192.168.70.71  fpgatest1" >> /etc/hosts
-sudo su
-ssh-copy-id fpgattest1
-ssh-copy-id fpgatest1
-ssh fpgatest1 
-ssh-copy-id offfpga2
-ssh offfpga2
-ssh-copy-id offfpga1
-ssh offfpga1
-ssh offfpga2
-ping offfpga2
-ssh offfpga2
-ping offfpga2
-ssh offfpga2
-cd ~/Downloads/
+mkdir injector
+cd injector/
 ls
-ls -ltra
-ssh offfpga2
+vcom 
+vcom -sv network_header_ram.sv 
+vcom network_header_ram.sv 
+vlog -sv network_header_ram.sv 
 ls
-pushd /mnt/apps/jgreen/
+less work/
+ls work
+less work/_info 
+vlog -sv network_header_ram.sv 
+ls work/
 ls
-cd share/
+vsim
+bg
+mif2hex --help
+locate convert_hex2ver.dll
+
+locate convert_hex2ver.c
+which vlog
+pushd ~/eda/intelFPGA/16.1/modelsim_ae
+find . -name '*.c'
+cd bin
 ls
-cd Downloads/
-ls
-pwd
+find . -name 'convert+*'
 cd ..
-ls
-cd Documents/
-ls
-cd Vendors/
-ls
-cd Solarflare/
-ls
-cd FDK_3_2_0/
-ls
-cd sorrento_fdk_rtl_release_area/
-ls
-cd sorrento_fdk_release_pkg/
-ls
-cd quartus/
-ls
-cd constraints/
-ls
-less sodimm2_constraints 
-ls
-less sodimm1_ddr3.qsf 
-less base_constraints 
-less fkr_ios 
-less nic_constraints 
-less qkr0_ios 
-less qkr1_ios 
-less qsfp1_constraints 
-less sf_fdk_ref_pmapt_design_cdc_fifo_settings_2x10_2x10.qsf 
-less sodimm1_constraints 
-less sodimm1_ddr3.qsf 
-less sodimm3_ddr3_discrete.qsf 
-less sodimm4_ddr3_discrete.qsf 
-less south_discrete_constraints 
-less west_discrete_constraints 
-ls
-less qsfp0_constraints 
-cd ..
-ls
-cd file_list/
-ls
-less design_file_list 
-cd ../parameters/
-ls
-less README.txt 
-less templates/build_parameters_2x10_2x10_0000_V0
-ls
-ls -al
-less build_parameters 
-ls
-cd ..
-ls
-cd scripts/
-ls
-less get_config.tcl 
-ls
-less ../parameters/build_parameters 
-ls
-less qsf_rel.tcl 
-pwd
-ls
-less sta.tcl 
-less get_config.tcl 
-pwd
+find . -name 'convert+*'
+find . -name 'convert*'
+find . -name '*hex*'
 dirs
-cd ..
-ls
-cd build/
-ls
-less sf_fdk_ref_design_fpga_top.qpf 
-ls
-cd ..
-ls
-cd constraints/
-ls
-less base_constraints 
-less fkr_ios 
-locate base_constraints
-pwd
-less fkr_ios 
-less nic_constraints 
-less qsfp0_constraints 
-locate altera_std_synchronizer_nocut
-locate altera_std_synchronizer_nocut | grep intel
-clear
-locate altera_std_synchronizer_nocut | grep intel
-less /home/simplex/eda/intelFPGA/16.1/ip/altera/primitives/altera_std_synchronizer/altera_std_synchronizer_nocut.v
-locate altera_std_synchronizer.v
-less /home/simplex/eda/intelFPGA/16.1/ip/altera/primitives/altera_std_synchronizer/altera_std_synchronizer.v
-clear; locate altera_std_synchronizer.v
-less /home/simplex/eda/intelFPGA/16.1/quartus/libraries/megafunctions/altera_std_synchronizer.v
-less /home/simplex/eda/intelFPGA/16.1/quartus/libraries/megafunctions/
-ls /home/simplex/eda/intelFPGA/16.1/quartus/libraries/megafunctions/altera_std_synchronizer.*
-ls /home/simplex/eda/intelFPGA/16.1/quartus/libraries/megafunctions/altera_std_synchronizer*
-less /home/simplex/eda/intelFPGA/16.1/quartus/libraries/megafunctions/altera_std_synchronizer_bundle.v
-ls /home/simplex/eda/intelFPGA/16.1/quartus/libraries/megafunctions/altera_std_synchronizer.v
-ls /home/simplex/eda/intelFPGA/16.1/quartus/libraries/megafunctions/altera_std_synchronizer.v 
-less /home/simplex/eda/intelFPGA/16.1/quartus/libraries/megafunctions/altera_std_synchronizer.v 
-ls
-pwd
-cd ~/Downloads/
-ls
-ls FDK_3_2_0/
-ls
-cd FDK_3_2_0/
-ls
-cd sorrento_fdk_rtl_release_area/
-ls
-cd ..
-ls
-pushd /mnt/apps/jgreen/share/Downloads/
-ls
-cd ..
-ls
-cd Documents/
-ls
-cd Vendors/
-ls
-cd Solarflare/
-ls
-pwd
 pushd +1
-pwd
+quartus &
+mv network_header_ram.sv network_header_ram.sv.bak
+ls
+less network_header_ram.sv.bak 
+rm network_header_ram.sv.bak
+rm -rf greybox_tmp/
+rm -rf work/
+ls
+less network_header_ram.sv 
+git status
+ls
+git add network_header_ram.sv
+git status
 cd ..
 ls
-cd ../Solarflare/
+mkdir elastic_stream
+cd elastic_stream/
+touch elastic_stream.sv
 ls
-man i3m
-man i3
+emacs elastic_stream.sv 
+ps -ef |grep vsim[k]
+locate ffi.patch
 ls
-SF-115213-DH-12_(SF-115218-LS-12)_FDK_FPGA_Design_Files.txt
-gedit SF-115213-DH-12_(SF-115218-LS-12)_FDK_FPGA_Design_Files.txt &
-gedit SF-115213-DH-12_\(SF-115218-LS-12\)_FDK_FPGA_Design_Files.txt &
-pwd
-quartus --help
-pwd
-ls
-unzip SF-115213-DH-12_\(SF-115284-LS-7\)_AOE_Host_Software.zip 
-ls
-scp sfaoesw-3.2.0.1007dev.tgz offfpga2:~
-ssh offfpga2
-gcc
-cd ~/Downloads/
-wget https://www.python.org/ftp/python/3.6.1/Python-3.6.1.tgz
-tar xzf Python-3.6.1.tgz
-cd Python-3.6.1
-./configure
-sudo make -j altinstall
-python -V
-sudo yum install -y binutils-devel.i686 zlib-devel.i686 bzip2-devel.i686 readline-devel.i686 openssl-devel.i686 tk-devel.i686 sqlite-devel.i686
-sudo yum install -y glibc-devel.i686 
-sudo yum install -y glibc-devel.i686 libstdc++-devel.i686
-sudo yum install -y libffi-devel.i686
-sudo yum install -y ncurses-devel.i686
-BASECFLAGS=-m32 LDFLAGS=-m32 CFLAGS=-m32 ./configure --prefix=/opt/python32 --enable-shared
-make -j
-sudo make -j altinstall
-less /etc/ld.so.conf.d/libc.conf
-sudo emacs -nw /etc/ld.so.conf.d/libc.conf
-sudo ldconfig
-/opt/python32/bin/python3.6 
-/opt/python32/bin/python3.6
-history
-make -j
-ls
-rm -rf build
-sudo rm -rf build
-ls
-BASECFLAGS=-m32 LDFLAGS=-m32 CFLAGS=-m32 ./configure --prefix=/opt/python32 --enable-shared
-sudo make -j altinstall
-make
-make distclean
-make
-make clean
-BASECFLAGS=-m32 LDFLAGS=-m32 CFLAGS=-m32 ./configure --prefix=/opt/python32 --enable-shared
-make
-sudo make -j altinstall
-ls /opt/python32/
-sudo ldconfig 
-python3.6
-pushd ~
-mkdir ~/envs
-cd ~/envs
-/opt/python32/bin/python3.6 -m venv py32
-source py32/bin/activate
-ls
-python -V
-whichpython
-which python
-file `which python`
-file `which python3.6`
-file `which /opt/python32/bin/python3.6`
-deactivate 
-man alternatives
-which python3.6
-which python3.6m
-file `which python3.6m`
-file `which python3.6`
-ls -al /usr/local/bin/python*
-ls /opt/python32/bin/
-locate pip3.6
-locate pip3\.6
-alternatives --config py36
-alternatives --list
-alternatives --list | grep py
-alternatives --config py36
-ls /etc/alternatives/
-history
-deactivate 
-dirs
-popd
-sudo rm -rf build
-make distclean
-sudo make distclean
-make distclean
-ls
-sudo rm -rf build
-history
-./configure --prefix=/opt/python64  --enable-shared
-make -j
-sudo make altinstall
-/opt/python64/bin/python3.6 -V
-less /etc/ld.so.conf.d/libc.conf 
-sudo emacs -nw /etc/ld.so.conf.d/libc.conf
-sudo ldconfig 
-/opt/python64/bin/python3.6 -V
-/opt/python32/bin/python3.6 -V
-/opt/python32/bin/python3.6
-/opt/python64/bin/python3.6
-sudo yum search modules
-sudo yum search modules | less
-sudo yum search modules | grep environ
-ip-generate --help
-ip-generate --help | less
-qsys-generate --help
-qsys-generate --help | less
-ip-generate --help | less
-qsys-generate --help | less
-ip-generate --help | less
-less /home/simplex/svn/trunk/fpga/users/jarens/projects/qsys/simple/simple
-less /home/simplex/svn/trunk/fpga/users/jarens/projects/qsys/simple/simple/simple_generation.rpt 
-ls -ltra
-ls -ltr /home/simplex/svn/trunk/fpga/users/jarens/projects/qsys/simple/simple/
-date
-ls -ltr /home/simplex/svn/trunk/fpga/users/jarens/projects/qsys/simple/simple/
-less /home/simplex/svn/trunk/fpga/users/jarens/projects/qsys/simple/simple//simple_generation.rpt
-less /home/simplex/svn/trunk/fpga/users/jarens/projects/qsys/simple/simple/testbench/simple_generation.rpt 
-sim-script-gen --help
-vsim --help
-vsim -help
-vsim -help | less
-env | grep LM
-svn status
-svn diff
-svn status
-ls
-ls tb_master_array.sv
-svn add tb_master_array.sv
-svn status tb_master_array.sv
-svn commit -m 'Got rid of MAX_DIST_CYCLES'
-ls wave.do
-ls
-svn ls
-svn status
-ls
-ls *.sv
-ls *.do
-svn ls
-svn status
-ls
-ls ..
-pwd
-find . -name '*.sv'  | grep enable {} +
-pwd
-find .. -name '*.sv'  | grep enable {} +
-find .. -name '*.sv' -exec grep enable {} +
-find .. -name '*.sv' -exec grep enable {} + | less
-find .. -name '*.sv' -exec grep $bits {} + | less
-find .. -name '*.sv' -exec grep \$bits {} + | less
-cd ~/svn/trunk/fpga/
-ls
-cd users/jarens/
+sudo updatedb
+locate ffi.patch
+locate patch |less
+locate .patch |less
+cd ~/git/simplex/fpga/users/jarens/
 ls
 cd perfect_hash/
 ls
-ls mast*
-cd ..
-ls
-cd projects/
-ls
-cd perfect_hash/
-ls
-svn ls
-ls
-ls master*
-svn add master_array_read.sv
-ls tb_master_array.sv
-svn status
-svn commit -m 'Refactoring master_array'
-svn status
-svn commit -m 'Fixing up the latency calculations'
-svn commit -m ''
-svn commit -m 'Work in progress'
+emacs generate_fpga_files.py &
+# setxkbmap 
+ setxkbmap -layout us -option nocaps:ctrl
+setxkbmap -layout us -option nocaps:ctrl
+setxkbmap -layout us -option ctrl:swapcaps
+ipython --version
+python --version
+python 'import numpy as np; print np.__version__'
+python
+python -c 'import numpy as np; print np.__version__'
 ipython
+sudo yum search numpy
+sudo yum info python27-numpy.x86_64
+sudo yum info numpy
+supo pip search numpy
+sudo pip search numpy
+sudo pip search numpy | less
+which pip
+sudo which pip
+sudo pip install numpy
+sudo pip install --upgrade numpy
+ipython
+python generate_fpga_files.py 
+sudo pip install sympy
+python generate_fpga_files.py 
+less keys.tv
+less addresses.tv 
+ipython
+python generate_fpga_files.py 
+python generate_fpga_files.py %debug
+%debug
+python generate_fpga_files.py
 ls
-clear
-ls
-svn ls
-svn status
-svn commit -m 'Fixed bug with write enable'
-svn commit -m ''
-svn commit -m 'Cleanup'
-less ~/.bashrc
-bash
-pwd
-cd svn/trunk/fpga/
-ls
-cd projects/
-ls
-cd ../users/
-cd jarens/
-ls
-cd perfect_hash/
-ls
-ls *.sv
-cd ../projects/perfect_hash/
-ls
-quartus perfect_hash.qpf
-less simulation/modelsim/perfect_hash_run_msim_rtl_verilog.do
-cd simulation/modelsim/
-ls
-less msim_transcript 
-less perfect_hash_modelsim.xrf
-module list
-ls
-pwd
+ls *.tv
+ls addresses.tv 
+less addresses.tv 
+less keys.tv 
+less ma0.mif 
+less ma1.mif 
+less ma0.mif 
+ls -al ma*
+python generate_fpga_files.py
+less ma0.mif 
+python generate_fpga_files.py
+diff ma0.mif refmif/ma0.mif 
+less ma0.mif 
+python generate_fpga_files.py
+less ma1.mif 
+less ma0.mif 
+python generate_fpga_files.py
+git status
+less ma0.mif 
+less ma1.mif 
+less keys.txt 
+less keys.tv
+ls *.tv
+less keys.tv
+less addresses.tv 
+less offsets.tv 
+less keys.tv
+less addresses.tv 
+less ma0.mif 
+git status
+git add eph.py
+git add generate_fpga_files.py
+git commit -am 'Refactored and fixed up to support user provided key list.'
+git push
+git pull --ff-only
+git pull
+git push
+git status
 dirs
-cd svn/trunk/fpga/users/jarens/projects/perfect_hash/
 ls
-ls *.sv
-cd ../master_array/
-ls
-svn status
-svn commit -m 'Work in progress'
-svn ls
-svn commit -m 'Work in progress'
-svn add elastic_interface.sv
-svn commit -m 'Work in progress'
-emacs -nw ~/.bashrc
-vlog -sv elastic_interface.sv
-svn commit -m 'Work in progress'
-vlog -sv tb_elastic_interface.sv
-vsim work.tb_elastic_interface
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 200 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 200 ns' work.tb_elastic_interface
-svn commit -m 'About to refactor'
-svn add tb_elastic_interface.sv
-svn commit -m 'About to refactor'
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 200 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 200 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 200 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 200 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 200 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 200 ns' work.tb_elastic_interface
-vlog -sv regfifo.sv
-vsim -do 'do ei_wave.do; run 200 ns' work.tb_elastic_interface
-vlog -sv regfifo.sv
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 200 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 200 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 200 ns' work.tb_elastic_interface
-vlog -sv regfifo.sv
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 200 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 200 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv regfifo.sv
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-svn commit -m 'Work in progress'
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-svn commit -m 'Work in progress'
-vlog -sv elastic_interface.sv; vlog -sv tb_elastic_interface.sv
-vsim -do 'do ei_wave.do; run 100 ns' work.tb_elastic_interface
-bg
-factor 5760
-factor 24
-factor 2903040
+ls refmif/
 clear
-factor 24
-factor 5760
-factor 2903040
-clear
-svn commit -m 'This works except for CYCLES=1 case'
-vsim &
-history
-lsb_release -a
+ls refmif/
+ls refmif/*.mif
+dirs
 cd Downloads/
-ls -ltr | tail -10
-chmod +x VMware-Player-7.1.2-2780323.x86_64.bundle 
-./VMware-Player-7.1.2-2780323.x86_64.bundle 
-sudo ./VMware-Player-7.1.2-2780323.x86_64.bundle 
-vmplayer 
-bg
+ls -lsh sackoff.pcap 
+scp sackoff.pcap dev3:
 ls ~/.local/
-less ~/.bashrc
-gnome-control-center &
-gnome-software &
-sudo gnome-software &
-sudo # vmware-installer  --uninstall-product vmware-player
-sudo vmware-installer  --uninstall-product vmware-player
-chmod +x VMware-Player-12.5.7-5813279.x86_64.bundle 
-sudo ./VMware-Player-12.5.7-5813279.x86_64.bundle 
-vmplayer &
-less ~/.xmodmap 
-less ~/.xinitrc 
-less /tmp/python32.txt 
-ssh dev3
-svn up ~/svn/trunk/fpga/
-cd ..
-mv modulefiles/ modulefiles.bak
-ln -s ~/svn/trunk/fpga/modulefiles modulefiles
-module list
-bash
-pushd ~/git/sxcocotb/examples/
+ls ~/.local/share/
+ls -la
+tree -a dotfiles/
+tree -a dotfiles/ |less
 ls
-cd endian_swapper/
+ls -la
+ls -la .i3/
+vi .config/i3/config 
+vi .Xmodmap 
+vi .xinitrc 
+cd ~/git/simplex/fpga/users/jarens/projects/injector
+ls -al sim_build.one
+ps | grep vsimk
+ps -ef | grep vsimk
+locate inet.py
+sudo chmod a+w /opt/python32/lib/python3.6/site-packages/scapy/layers/inet.py
+/opt/python32/lib/python3.6/site-packages/scapy/layers/inet.py
+ls -al /opt/python32/lib/python3.6/site-packages/scapy/layers/inet.py
+sudo chmod a+w /opt/python32/lib/python3.6/site-packages/scapy/packet.py 
+pushd /opt/python32/lib/python3.6/site-packages/scapy/
 ls
-cd tests/
+find . -name '*.py' -exec grep checksum {} + | less
+sudo chmod a+w /opt/python32/lib/python3.6/site-packages/scapy/utils.py 
+find . -name '*.py' -exec grep chksum {} + | less
+find . -name '*.py' -exec grep crc32 {} + | less
 ls
-less test_endian_swapper.py 
-pushd ..
-cd ..
+find . -name '*.py' -exec grep -i checksum {} + | less
+echo $MANPATH
+man bash
+man
+man ls
+man bash
+echo $INFOPATH
+cd ~/Downloads/
+cd emacs-25.3/
 ls
-cd cocotb/
+less PROBLEMS 
+less README 
+less config.status 
+less compilation.txt 
+less configure
+cd ~/git/simplex/fpga/users/jarens/projects/
+find . -name '*.sv' -exec wc -l {} + 
+emacs -nw ./jtag_rom/jtag_rom/synthesis/submodules/altera_merlin_burst_adapter_new.sv
+emacs -nw ~/orgfiles/scraps.org 
+emacs ~/orgfiles/scraps.org 
+jobs
+emacs ~/orgfiles/scraps.org 
+pushd ~/.emacs.d/
 ls
-cd drivers/
-ls
-less avalon.py 
-pushd +1
-ls
-less test_endian_swapper.py 
-less test_endian_swapper_hal.py 
-ls
-less Makefile 
-cd ..
-ls
-less hdl/endian_swapper.sv 
-less tests/test_endian_swapper.py 
-pwd
-pushd ../..
-ls
-cd cocotb/
-ls
-cd drivers/
-ls
-less avalon.py 
-cd ..
-ls
-cd ..
-ls
-cd examples/
-ls
-cd endian_swapper/
-ls
-cd test
-cd tests
-ls
-less test_endian_swapper.py 
-less test_endian_swapper.py
-ls
-pushd ~/svn/trunk/fpga/
-svn status
-cd sx
-ls
-cd src/
-cd python/
-ls
-cd sx
-ls
-cd cocotb/
-ls
-svn mkdir monitors
-svn commit -m 'Adding monitors directory'
-svn up
-svn status
-svn commit -m 'Make DataValidBusMonitor available in the library'
-svn status
-svn commit -m 'Added candidate monitors' monitors/__init__.py 
-ls
+less emacs-debug.org 
+cp emacs.org emacs-debug.org 
+emacs emacs-debug.org
+ll /opt/
+ll /opt/intel
+exit
+ll
+ll ..
+exit
+ll /opt/intel/
+exit
+ll /opt/intel
+exit
+cd /home/simplex/git/simplex/fpga/users/jarens/projects/server_ingress
 cd ..
 ls
-cd ..
-cd sx/
+cd elastic_stream/
 ls
-pushd ~/git/sxcocotb/
+less elastic_stream.sv 
+man nc
+nc -l -p 8080
+nc -l -p 8088
 ls
-cd examples/
-ls
-less Makefile 
-cd mean/
-ls
-less tests/test_mean.py 
-ls
-less tests/test_mean.py 
-ls
-cd ..
-ls
-cd adder/
-ls
-cd tests/
-ls
-less test_adder.py 
-cd ..
-ls
-cd dff/tests/
-ls
-less dff_cocotb.py 
-cd ../..
-ls
-cd endian_swapper/
-ls
-cd tests/
-ls
-less test_endian_swapper.py 
-man Makefile 
-man make
+ls src/
+locate wireshark |less
+a
+ls ~/git/simplex/fpga/users/jarens/projects/injector/
+scp ~/git/simplex/fpga/users/jarens/projects/injector/injector.sv dev3:/tmp/

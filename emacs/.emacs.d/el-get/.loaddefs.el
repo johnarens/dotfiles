@@ -485,6 +485,18 @@ When called interactively, switch to the process buffer.
 
 ;;;***
 
+;;;### (autoloads (notify) "notify/notify" "../../../../.emacs.d/el-get/notify/notify.el"
+;;;;;;  "94c5e2d9d7940769e370491584e3518d")
+;;; Generated autoloads from ../../../../.emacs.d/el-get/notify/notify.el
+
+(autoload 'notify "notify/notify" "\
+Notify TITLE, BODY via `notify-method'.
+ARGS may be amongst :timeout, :icon, :urgency, :app and :category.
+
+\(fn TITLE BODY &rest ARGS)" nil nil)
+
+;;;***
+
 ;;;### (autoloads (pymacs-apply pymacs-call pymacs-exec pymacs-eval
 ;;;;;;  pymacs-autoload pymacs-load) "pymacs/pymacs" "pymacs/pymacs.el"
 ;;;;;;  (22675 14728 300720 0))
@@ -540,7 +552,8 @@ equivalents, other structures are converted into Lisp handles.
 
 ;;;***
 
-;;;### (autoloads nil nil ("ample-regexps/init-tryout.el" "auto-complete/auto-complete-pkg.el"
+;;;### (autoloads nil nil ("../../../../.emacs.d/el-get/notify/notify.el"
+;;;;;;  "ample-regexps/init-tryout.el" "auto-complete/auto-complete-pkg.el"
 ;;;;;;  "ctable/ctable.el" "ctable/test-ctable.el" "deferred/concurrent.el"
 ;;;;;;  "deferred/deferred.el" "el-get/el-get-autoloading.el" "el-get/el-get-build.el"
 ;;;;;;  "el-get/el-get-byte-compile.el" "el-get/el-get-core.el" "el-get/el-get-custom.el"
@@ -549,8 +562,8 @@ equivalents, other structures are converted into Lisp handles.
 ;;;;;;  "el-get/el-get-status.el" "epc/epc.el" "epc/epcs.el" "epc/test-epc.el"
 ;;;;;;  "fuzzy/fuzzy.el" "jedi/test-jedi.el" "jedi/tryout-jedi.el"
 ;;;;;;  "lua-mode/init-tryout.el" "popup/popup.el" "python-environment/python-environment.el"
-;;;;;;  "python-environment/test-python-environment.el") (22684 28324
-;;;;;;  381857 59000))
+;;;;;;  "python-environment/test-python-environment.el") (22972 8830
+;;;;;;  633338 912000))
 
 ;;;***
 
