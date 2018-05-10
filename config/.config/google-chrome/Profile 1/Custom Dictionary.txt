@@ -1,5 +1,0 @@
-10Ge
-FPGA
-MITH
-multicycle
-checksum_v1 = 0e7f2227233cc55b2243f78eccef1a9d
