@@ -27,12 +27,14 @@ export GTAGSLABEL=pygments
 
 
 # export QUARTUS_VERSION=16.1
-export QUARTUS_VERSION=17.0
+# export QUARTUS_VERSION=17.0
+export QUARTUS_VERSION=17.1
 # Used for contract with TCL scripts
 export QUARTUS=/home/simplex/eda/intelFPGA/${QUARTUS_VERSION}
 
 
-export MODELSIM=/home/simplex/eda/intelFPGA/16.1/modelsim_ae
+# export MODELSIM=/home/simplex/eda/intelFPGA/16.1/modelsim_ae
+export MODELSIM=/home/simplex/eda/intelFPGA/${QUARTUS_VERSION}/modelsim_ae
 
 
 # export LM_LICENSE_FILE=27000@offfile3.s MGLS_LICENSE_FILE=27000@offfile3.s
@@ -67,6 +69,8 @@ alias quartus_sh="rlwrap \quartus_sh "
 # /opt/python32/lib is in /etc/ld.so.conf.d/libc.conf may be should be in module py36
 # 
 
+# sudo LD_LIBRARY_PATH=/opt/python32/lib:${LD_LIBRARY_PATH} `which pip3.6` -V
+
 # Python 32
 # Refactor py36 to python32 and python64
 
@@ -84,6 +88,29 @@ alias quartus_sh="rlwrap \quartus_sh "
 # Add /usr/local/texlive/2017/texmf-dist/doc/info to INFOPATH.
 # Most importantly, add /usr/local/texlive/2017/bin/x86_64-linux
 
+export EDITOR='emacs -nw'
+export DEFAULT_CHEAT_DIR='~/.cheats'
+
+function _cheat_autocomplete {
+    sheets=$(cheat -l | cut -d' ' -f1)
+    COMPREPLY=()
+    if [ $COMP_CWORD = 1 ]; then
+	COMPREPLY=(`compgen -W "$sheets" -- $2`)
+    fi
+}
+
+complete -F _cheat_autocomplete cheat
+
+
+if [ ! -v MANPATH ]
+then
+	   export MANPATH=:
+fi
+
 export MANPATH=${MANPATH}:/usr/local/texlive/2017/texmf-dist/doc/man
 export INFOPATH=${INFOPATH}:/usr/local/texlive/2017/texmf-dist/doc/info
 export PATH=${PATH}:/usr/local/texlive/2017/bin/x86_64-linux
+
+export ALTERAOCLSDKROOT="/home/simplex/eda/intelFPGA/17.1/hld"
+
+export QSYS_ROOTDIR="/home/simplex/eda/intelFPGA/17.1/quartus/sopc_builder/bin"
