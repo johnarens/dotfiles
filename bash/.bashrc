@@ -114,3 +114,8 @@ export PATH=${PATH}:/usr/local/texlive/2017/bin/x86_64-linux
 export ALTERAOCLSDKROOT="/home/simplex/eda/intelFPGA/17.1/hld"
 
 export QSYS_ROOTDIR="/home/simplex/eda/intelFPGA/17.1/quartus/sopc_builder/bin"
+
+alias cd_ja='cd /home/simplex/git/simplex/fpga/users/jarens'
+alias cd_jg='cd /home/simplex/git/simplex/fpga/users/jgreen'
+alias cd_mg='cd /home/simplex/git/simplex/fpga/users/mgulotta'
+alias cd_fpga='cd /home/simplex/git/simplex/fpga'
