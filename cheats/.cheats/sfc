@@ -1,0 +1,13 @@
+# Add Solarflare cheats
+
+# To see SERDES status
+ls -l /sys/devices/sfc_aoe/fpga0/port0 ; cat /sys/devices/sfc_aoe/fpga0/port0/*
+
+# To write dat file to FPGA Flash
+sfupdate --adapter=aoe0 --verbose --write --yes --force --image=/path/to/foo.dat
+
+# To downgrade the FCFW
+sudo ip netns exec ns_client sfupdate --adapter=aoe0 --write --force --image=/tmp/passthrough-7942-fcfw-v3.1.0.1000.dat
+
+# To use ethtool to see counters
+ethtool -S aoe0
